@@ -1,4 +1,4 @@
-public class ShippingCostCalculator implements ShippingCalculator {
+public class CostCalc implements ShippingCalc {
     private static final double weightRate = 0.2;
     private static final double sizeRate = 0.1;
     private static final double distanceRate = 0.03;

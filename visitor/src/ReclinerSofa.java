@@ -24,7 +24,7 @@ public class ReclinerSofa implements Furniture {
     }
 
     @Override
-    public double accept(ShippingCalculator calculator) {
+    public double accept(ShippingCalc calculator) {
         return calculator.calculateShippingCost(this);
     }
 
